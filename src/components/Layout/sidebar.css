@@ -1,0 +1,52 @@
+.sidebar {
+    height: 100vh;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    background-color: rgb(6, 121, 142);
+  }
+  
+  .sidebar.open {
+    width: 250px;
+  }
+  
+  .sidebar.collapsed {
+    width: 70px;
+  }
+  
+  .sidebar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #555;
+  }
+  
+  .sidebar-title {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .hamburger-btn {
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .sidebar ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .sidebar ul li {
+    padding: 10px 15px;
+  }
+  
+  .sidebar ul li a {
+    display: block;
+  }
+  
+  .sidebar ul li a:hover {
+    border-radius: 5px;
+  }
+  

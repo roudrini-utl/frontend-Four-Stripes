@@ -1,0 +1,22 @@
+.layout {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar-open .main-content {
+    margin-left: 5px;
+  }
+  
+  .sidebar-collapsed .main-content {
+    margin-left: 5px;
+  }
+  
+  .main-content {
+    flex-grow: 1;
+    transition: margin-left 0.3s ease;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
